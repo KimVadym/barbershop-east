@@ -1,0 +1,113 @@
+:root {
+  --logo-color: #ff6e40;
+  --logo-text: #efe7e2;
+  --main: #ffffff;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1180px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background: #3c322d;
+}
+.header-wrapp {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.logo-title {
+  margin-right: 55px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: var(--logo-text);
+}
+.navigation {
+  margin-right: 27px;
+}
+.navigation-wrapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navigation-list {
+}
+
+.navigation-list-item {
+  padding: 15px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 135%;
+  color: var(--logo-text);
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+.contacts-list-item {
+  display: flex;
+  gap: 15px;
+}
+.contact-adress {
+  width: 105px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: right;
+  color: var(--logo-text);
+}
+.tel-cont {
+  display: flex;
+  align-items: center;
+}
+.cont-wrapp {
+  width: 146px;
+}
+.tel {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 152%;
+  color: var(--main);
+}
+.shadal {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: var(--logo-text);
+}
