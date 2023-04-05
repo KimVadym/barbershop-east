@@ -425,6 +425,7 @@ body {
   border: 1px solid #000000;
   padding-left: 20px;
   outline: none;
+  font-size: 20px;
 }
 .form-input::placeholder {
   font-family: "Fira Sans";
@@ -583,3 +584,81 @@ body {
   background-size: cover;
   background-position: center;
 }
+/* ====================portfolio==================== */
+/* ===============portfolio=============== */
+.hero-second {
+}
+.portfolio-wrapp {
+  height: 420px;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 63px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(33, 24, 20, 0.57) 0%,
+    rgba(38, 28, 24, 0.42) 100%
+  );
+  background-image: url(../images/hero2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-title {
+  margin-bottom: 32px;
+  width: 707px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 110%;
+  color: var(--main);
+}
+.portfolio-title-item {
+  width: 228px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--logo-text);
+}
+
+.gallary {
+  padding-top: 90px;
+}
+.gallary-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.gallary-title {
+  margin-left: 50px;
+  font-family: "Fira Sans";
+  font-size: 48px;
+  line-height: 125%;
+  color: var(--logo-text);
+}
+.gallary-title-item {
+  font-family: "Fira Sans";
+  font-size: 18px;
+  line-height: 150%;
+  color: #b7aaa2;
+}
+.first {
+  width: 280px;
+  margin-left: auto;
+}
+.second {
+  width: 263px;
+  margin-left: 20px;
+}
+.gallary-pic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.gallary-pic-list {
+  flex-basis: calc((100% - 60px) / 4);
+}
+/* =====================masters=============== */
