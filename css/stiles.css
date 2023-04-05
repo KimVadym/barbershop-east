@@ -35,7 +35,7 @@ body {
   margin: 0 auto;
 }
 
-header {
+.main-header {
   padding-top: 36px;
   padding-bottom: 36px;
   background: var(--hero-ground);
@@ -489,18 +489,19 @@ header {
   text-decoration: underline;
 }
 /* =================footer============ */
-footer {
-}
+
 .footer-wrapp {
-  position: relative;
   background-image: url(../images/footer-map.jpg);
-  width: 1920px;
-  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.adress-box {
 }
 .adress-wrapper {
-  position: absolute;
-  top: 60px;
-  left: 0;
+  margin-left: 230px;
   width: 480px;
 
   background: linear-gradient(0deg, #251d1a, #251d1a), url(image.png);
@@ -541,7 +542,6 @@ footer {
   color: var(--main);
 }
 .footer-line {
-  height: 130px;
   padding-top: 56px;
   padding-bottom: 56px;
 }
@@ -555,3 +555,31 @@ footer {
   color: #ffffff;
 }
 /* contacts-------- */
+
+.contact-header {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.contact-map {
+  padding-bottom: 435px;
+}
+
+.form-contact-wrapp {
+  position: absolute;
+  bottom: 0;
+  left: 230px;
+  transform: translateY(92%);
+  background-color: var(--logo-color);
+  width: 1180px;
+  height: 375px;
+  padding-top: 70px;
+}
+.contact-map-wrapp {
+  position: relative;
+  padding-top: 135px;
+  padding-bottom: 135px;
+  background-image: url(../images/footer-map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700;900&family=Raleway:wght@400;500&family=Roboto&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="./css/stiles.css" />
+  </head>
+  <body>
+    <header class="contact-header">
+      <div class="container header-wrapp">
+        <a class="logo" href="./index.html">
+          <svg width="45" height="45">
+            <use href="./images/vector.svg#icon-logo"></use>
+          </svg>
+          <span class="logo-title">Cool Barber</span>
+        </a>
+        <nav class="navigation">
+          <ul class="navigation-wrapp">
+            <li class="navigation-list">
+              <a class="navigation-list-item" href="./index.html">About Us</a>
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-list-item" href="">Our masters</a>
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-list-item" href="">Portfolio</a>
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-list-item" href="">Testimonials</a>
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-list-item" href="./contacts.html"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li class="contacts-list">
+            <a class="contacts-list-item" href="">
+              <span class="contact-adress"> 302 W 50th St, NY, NY 10019</span>
+              <svg width="36" height="36">
+                <use href="./images/vector.svg#icon-map"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts-list">
+            <a class="contacts-list-item tel-cont" href="tel:8(800)0000000">
+              <div class="cont-wrapp">
+                <span class="tel">8 (800) 000-00-00</span>
+                <span class="shadal"> Daily from 9 to 20</span>
+              </div>
+              <svg width="36" height="36">
+                <use href="./images/vector.svg#icon-tel"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="contact-map">
+      <div class="contact-map-wrapp">
+        <div class="adress-wrapper">
+          <h2 class="footer-adress-title title">Contacts</h2>
+          <address>
+            <ul class="adress-link-wrapp">
+              <li>
+                <a class="adress-item-wrapp" href="tel:8(800)0000000">
+                  <div class="svg-wrapp">
+                    <svg class="svg-icon" width="22" height="22">
+                      <use href="./images/vector.svg#tel"></use>
+                    </svg>
+                  </div>
+                  <p class="adress-item">8 (800) 000-00-00</p>
+                </a>
+              </li>
+              <li>
+                <a class="adress-item-wrapp" href="mailto:info@sitename.com">
+                  <div class="svg-wrapp">
+                    <svg class="svg-icon" width="22" height="22">
+                      <use href="./images/vector.svg#icon-email"></use>
+                    </svg>
+                  </div>
+                  <p class="adress-item">info@sitename.com</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="adress-item-wrapp"
+                  href="https://goo.gl/maps/kQ9qsDXLjec3E3Rf7"
+                  target="_blank"
+                  ref="noopener nooreferer"
+                >
+                  <div class="svg-wrapp">
+                    <svg class="svg-icon" width="22" height="22">
+                      <use href="./images/vector.svg#map"></use>
+                    </svg>
+                  </div>
+                  <p class="adress-item">302 W 50th St, NY, NY 10019</p>
+                </a>
+              </li>
+              <li>
+                <a class="adress-item-wrapp" href="#">
+                  <div class="svg-wrapp">
+                    <svg class="svg-icon" width="22" height="22">
+                      <use href="./images/vector.svg#icon-time"></use>
+                    </svg>
+                  </div>
+                  <p class="adress-item">Daily from 9 to 20</p>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="container form-contact-wrapp">
+          <h2 class="form-title">
+            Get in consultation with our expert barbers
+          </h2>
+          <p class="form-link">Expand Call-to-Action Details</p>
+          <form class="form-list">
+            <input
+              class="form-input"
+              type="tel"
+              placeholder="+1 (___) ___-__-__"
+            />
+            <input class="form-input" type="email" placeholder="Email" />
+            <button class="form-btn" type="submit">Book now</button>
+
+            <span class="check-wrapper">
+              <input
+                class="check-item visually-hidden"
+                id="check"
+                type="checkbox"
+              />
+              <label class="check check-title" for="check"
+                >By clicking on the button, you agree to the
+                <a class="check-title dic" href="#">
+                  terms of processing personal data</a
+                ></label
+              >
+            </span>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="line footer-line">
+        <p class="footer-kopy">© All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
