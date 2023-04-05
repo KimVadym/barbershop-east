@@ -225,6 +225,7 @@ header {
 }
 
 .title {
+  font-family: sans-serif;
   font-size: 48px;
   line-height: 125%;
   text-align: center;
@@ -375,8 +376,10 @@ header {
   color: var(--main);
 }
 /* ==================form============== */
+
 .form {
   position: relative;
+  padding-bottom: 350px;
 }
 .form-line {
   height: 265px;
@@ -410,8 +413,10 @@ header {
 }
 .form-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  margin-bottom: 24px;
 }
 .form-input {
   width: 323px;
@@ -438,4 +443,115 @@ header {
   color: var(--main);
   padding: 19px 51px;
   background-color: #000000;
+  border: none;
 }
+
+.check-item:checked + .check:before {
+  background-image: url(../images/icon.svg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.check:before {
+  display: block;
+  content: "";
+
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000000;
+}
+.check {
+  display: flex;
+  gap: 7px;
+}
+.check-title {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 134.09%;
+  color: #efe7e2;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.dic {
+  text-decoration: underline;
+}
+/* =================footer============ */
+footer {
+}
+.footer-wrapp {
+  position: relative;
+  background-image: url(../images/footer-map.jpg);
+  width: 1920px;
+  height: 650px;
+}
+.adress-wrapper {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 480px;
+
+  background: linear-gradient(0deg, #251d1a, #251d1a), url(image.png);
+  border-radius: 5px;
+  padding-top: 65px;
+  padding-left: 57px;
+  padding-bottom: 80px;
+}
+.footer-adress-title {
+  margin-bottom: 34px;
+  text-align: left;
+}
+.adress-link-wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.svg-wrapp {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: var(--logo-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adress-item-wrapp {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+.adress-item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 143%;
+  color: var(--main);
+}
+.footer-line {
+  height: 130px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.footer-kopy {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+/* contacts-------- */

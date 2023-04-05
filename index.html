@@ -25,7 +25,7 @@
         <nav class="navigation">
           <ul class="navigation-wrapp">
             <li class="navigation-list">
-              <a class="navigation-list-item" href="">About Us</a>
+              <a class="navigation-list-item" href="./index.html">About Us</a>
             </li>
             <li class="navigation-list">
               <a class="navigation-list-item" href="">Our masters</a>
@@ -37,7 +37,9 @@
               <a class="navigation-list-item" href="">Testimonials</a>
             </li>
             <li class="navigation-list">
-              <a class="navigation-list-item" href="">Contacts</a>
+              <a class="navigation-list-item" href="./contacts.html"
+                >Contacts</a
+              >
             </li>
           </ul>
         </nav>
@@ -467,18 +469,83 @@
               />
               <input class="form-input" type="email" placeholder="Email" />
               <button class="form-btn" type="submit">Book now</button>
+
+              <span class="check-wrapper">
+                <input
+                  class="check-item visually-hidden"
+                  id="check"
+                  type="checkbox"
+                />
+                <label class="check check-title" for="check"
+                  >By clicking on the button, you agree to the
+                  <a class="check-title dic" href="#">
+                    terms of processing personal data</a
+                  ></label
+                >
+              </span>
             </form>
-            <span>
-              <input id="check" type="text" />
-              <label for="check"
-                >By clicking on the button, you agree to the
-                <a href="#"> terms of processing personal data</a></label
-              >
-            </span>
           </div>
         </div>
       </section>
-      secti
     </main>
+    <footer>
+      <div class="footer-wrapp">
+        <div class="adress-wrapper">
+          <h2 class="footer-adress-title title">Contacts</h2>
+          <address>
+            <ul class="adress-link-wrapp">
+              <li>
+                <a class="adress-item-wrapp" href="tel:8(800)0000000">
+                  <div class="svg-wrapp">
+                    <svg class="svg-icon" width="22" height="22">
+                      <use href="./images/vector.svg#icon-tel"></use>
+                    </svg>
+                  </div>
+                  <p class="adress-item">8 (800) 000-00-00</p>
+                </a>
+              </li>
+              <li>
+                <a class="adress-item-wrapp" href="mailto:info@sitename.com">
+                  <div class="svg-wrapp">
+                    <svg class="svg-icon" width="22" height="22">
+                      <use href="./images/vector.svg#icon-email"></use>
+                    </svg>
+                  </div>
+                  <p class="adress-item">info@sitename.com</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="adress-item-wrapp"
+                  href="https://goo.gl/maps/kQ9qsDXLjec3E3Rf7"
+                  target="_blank"
+                  ref="noopener nooreferer"
+                >
+                  <div class="svg-wrapp">
+                    <svg class="svg-icon" width="22" height="22">
+                      <use href="./images/vector.svg#icon-map"></use>
+                    </svg>
+                  </div>
+                  <p class="adress-item">302 W 50th St, NY, NY 10019</p>
+                </a>
+              </li>
+              <li>
+                <a class="adress-item-wrapp" href="#">
+                  <div class="svg-wrapp">
+                    <svg class="svg-icon" width="22" height="22">
+                      <use href="./images/vector.svg#icon-time"></use>
+                    </svg>
+                  </div>
+                  <p class="adress-item">Daily from 9 to 20</p>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+      <div class="line footer-line">
+        <p class="footer-kopy">© All rights reserved</p>
+      </div>
+    </footer>
   </body>
 </html>
